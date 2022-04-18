@@ -5,7 +5,7 @@ const Feed = () => {
   return (
       <>
       <NavigationBar />
-      <h2> THis is feed section</h2>
+      <h2> This is feed section</h2>
       </>
   );
 };
