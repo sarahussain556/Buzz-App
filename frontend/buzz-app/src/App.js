@@ -1,12 +1,26 @@
 import React from 'react';
 import Login from './Pages/Login';
+import Feed from './Pages/Feed';
+import Profile from './Pages/Profile';
+import { BrowserRouter ,Routes, Route, Link, Navigate } from "react-router-dom";
 import './App.css';
 
+
 function App() {
+  const user = true;
   return (
-    <div>
-      <Login />
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path='/' element={<Feed />} />
+          <Route path='/login' element={user ? <Navigate to = "/" />: <Login/> } />
+          
+          <Route path='/feed' element={user ? <Feed/> : <Navigate to ="/login" />} />
+          <Route path='/profile' element={user ? <Profile/> : <Navigate to ="/login" />} />
+
+        </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

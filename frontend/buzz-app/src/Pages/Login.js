@@ -40,7 +40,7 @@ const Login = () => {
 
                 
             </Form.Group>
-            <div className="text-center mt-4">
+            <div className="text-center ">
             <Button className="mt-5 rounded-pill btn-lg m-3 text-center" style={{backgroundColor: "#AB5FB0", border: "none"}} variant="success">Sign in</Button>
 
             </div>
