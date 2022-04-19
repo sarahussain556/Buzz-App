@@ -5,6 +5,11 @@ import {Button, Col, Row } from "react-bootstrap";
 
 
 const Login = () => {
+
+  const google = () => {
+    window.open("http://localhost:5000/auth/google", "_self")
+  }
+
   return (
     <>
     
@@ -16,7 +21,7 @@ const Login = () => {
               <h3 className ="mt-3"> Enter your details and Start your journey with us</h3>
               <p className="mt-3"> Don't stop until you are proud.</p>
               <Form>
-              <Button className="mt-5 rounded-pill btn-lg" variant="outline-danger">Sign in with Google</Button>
+              <Button className="mt-5 rounded-pill btn-lg" variant="outline-danger" onClick={google}>Sign in with Google</Button>
               </Form>
           </div>
 
