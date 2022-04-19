@@ -25,11 +25,11 @@ const NavigationBar = ({user}) => {
   </Navbar.Brand>
 
 
- <nav className="navbar navbar-light bg-light">
+ <nav className="navbar navbar-light bg-light searchbar">
   <div className="container-fluid">
-    <form className="d-flex">
-      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-     <h5>Photo/Video</h5>
+    <form className="d-flex searchbar">
+      <input className="form-control me-2" type="search" placeholder="Start a post..." aria-label="Search" />
+     <h5 className="searchbar">Photo/Video</h5>
     </form>
   </div>
 </nav>
