@@ -21,11 +21,11 @@ const NavigationBar = ({user}) => {
         <Navbar.Brand className="p-2">TO THE NEW</Navbar.Brand>
       </Link>
 
-  </Navbar.Brand>
+    </Navbar.Brand>
+    {
+      user ? (
 
-    
-
-  <div className="  pullright">
+        <div className="  pullright">
   <ul className="list d-flex">
     <li className="listItem">
       <img 
@@ -45,6 +45,15 @@ const NavigationBar = ({user}) => {
       
   </ul> 
   </div>
+
+      ) : (
+
+        <Link className="link" to = "/login"> Login </Link>
+      )
+    }
+    
+
+  
   </Container>
 </Navbar>
     </>

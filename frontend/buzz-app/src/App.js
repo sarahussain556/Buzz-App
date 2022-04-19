@@ -11,7 +11,7 @@ function App() {
   const user = true;
   return (
     <BrowserRouter>
-      <NavigationBar />
+      <NavigationBar user = {user} />
       <div>
         <Routes>
           
