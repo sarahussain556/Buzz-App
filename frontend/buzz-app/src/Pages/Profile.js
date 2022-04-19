@@ -1,4 +1,5 @@
 import React from "react";
+import Leftsidebar from "../Components/Leftsidebar";
 
 
 const Profile = () => {
@@ -6,6 +7,7 @@ const Profile = () => {
     <div>
       
       <h2> This is Profile section</h2>
+      <Leftsidebar/>
     </div>
   );
 };

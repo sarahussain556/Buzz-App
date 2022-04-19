@@ -1,13 +1,15 @@
 import React from "react";
 
 
-const Feed = () => {
+const Leftsidebar = () => {
   return (
       <>
       
-      <h2> This is Leftside bar</h2>
+     <div className="container-flex">
+         <h2> This is left side bar</h2>
+     </div>
       </>
   );
 };
 
-export default Feed;
+export default Leftsidebar;

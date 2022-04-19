@@ -21,9 +21,19 @@ const NavigationBar = ({user}) => {
         <Navbar.Brand className="p-2">TO THE NEW</Navbar.Brand>
       </Link>
 
+     
   </Navbar.Brand>
 
-    
+
+ <nav className="navbar navbar-light bg-light">
+  <div className="container-fluid">
+    <form className="d-flex">
+      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+     <h5>Photo/Video</h5>
+    </form>
+  </div>
+</nav>
+
 
   <div className="  pullright">
   <ul className="list d-flex">
