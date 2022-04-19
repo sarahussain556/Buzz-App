@@ -24,7 +24,7 @@ const NavigationBar = ({user}) => {
      
   </Navbar.Brand>
 
-
+{/* Searchbar */}
  <nav className="navbar navbar-light bg-light searchbar">
   <div className="container-fluid">
     <form className="d-flex searchbar">
