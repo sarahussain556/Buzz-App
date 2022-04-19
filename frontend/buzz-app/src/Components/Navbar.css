@@ -2,12 +2,16 @@
   color: #fff;
   text-decoration: none;
   margin-left: 20px;
+  
 }
 
 .listItem {
-  /* margin-right: 20px; */
-  /* font-weight: 500; */
+  margin-right: 20px;
+  margin-top: 5px;
+  font-weight: 500; 
   cursor: pointer;
+  color: #fff;
+  
 }
 
 .avatar {
@@ -15,5 +19,11 @@
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.list {
+  
+  align-items: center;
+  list-style: none;
 }
 

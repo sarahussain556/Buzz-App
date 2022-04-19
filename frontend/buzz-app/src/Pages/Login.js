@@ -1,10 +1,13 @@
 import React from "react";
+
 import Form from 'react-bootstrap/Form';
 import {Button, Col, Row } from "react-bootstrap";
 
 
 const Login = () => {
   return (
+    <>
+    
     <div class="container shadow p-3 m-5 bg-white rounded ">
       <div class="row">
           <div class="col justify-content-center p-3 mb-5 bg-white rounded m-5  ">
@@ -49,6 +52,7 @@ const Login = () => {
       </div>
   </div>
   </div>
+  </>
   );
 };
 
