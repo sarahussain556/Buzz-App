@@ -30,25 +30,25 @@ const NavigationBar = ({user}) => {
       user ? (
 
         <div className="  pullright">
-  <ul className="list d-flex">
-    <li className="listItem">
-      <img 
-        src={user.photos[0].value}
-        width="30"
-        height="30"
-        className="avatar"
-        alt="To The New"                        
-      />
-    </li>
-    <li className="listItem">
-      {user.displayName}
-    </li>
-    <li className="listItem" onClick={logout}>
-      Logout
-    </li>
+            <ul className="list d-flex">
+            <li className="listItem">
+            <Link className="link" to="/profile">
+            <img 
+              src={user.photos[0].value}
+              width="30"
+              height="30"
+              className="avatar"
+              alt="To The New"                        
+            />
+            </Link>
+            </li>
+            <li className="listItem">
+            {user.displayName}
+            </li>
+             <li className="listItem" onClick={logout}> Logout </li>
       
-  </ul> 
-  </div>
+            </ul> 
+        </div>
 
       ) : (
 
