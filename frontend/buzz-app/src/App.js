@@ -8,7 +8,7 @@ import './App.css';
 
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <BrowserRouter>
       <NavigationBar user = {user} />

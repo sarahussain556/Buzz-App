@@ -31,3 +31,5 @@ router.get("/google/callback", passport.authenticate("google", {
   successRedirect: CLIENT_URL,
   failureRedirect: ""
 }))
+
+module.exports = router;
