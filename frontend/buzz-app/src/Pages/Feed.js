@@ -1,5 +1,7 @@
 import React from "react";
 import "./Feed.css"
+import Suggestions from "../Components/Suggestions";
+import Leftsidebar from "../Components/Leftsidebar";
 // import Leftsidebar from "../Components/Leftsidebar";
 // import Profilecard from "../Components/Profilecard";
 // import NavigationBar from "../Components/Navbar";
@@ -17,9 +19,9 @@ const Feed = () => {
        <img src="/images/nightsky.jpg" alt="image" />
      </div> */}
     <div className="feedlayout">
-     <h2>Leftside</h2>
+     <Leftsidebar/>
      <h2>Middle</h2>
-     <h2>Rightside</h2>
+     <Suggestions/>
      </div>
 
       </>

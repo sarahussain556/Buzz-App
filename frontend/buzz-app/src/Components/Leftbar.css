@@ -1,9 +1,10 @@
 .leftbar {
-    margin-top: 10px;
+    /* margin-top: 10px;
     margin-inline-start: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     align-items: left;
-    width: 18rem;
-    flex: 3;
+    width: 18rem; */
+    display: flex;
+    flex:1.5;
   }

@@ -1,0 +1,10 @@
+.Suggestionbar {
+    display: flex;
+    flex:10;
+}
+
+.Suggestionstyle {
+    
+    color: lightseagreen;
+    align-items: baseline;
+}
