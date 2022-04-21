@@ -33,16 +33,14 @@ const NavigationBar = ({user}) => {
           
             <ul className="list d-flex">
               <li className="listItem">
-              <InputGroup>
-    <FormControl
-      placeholder="Explore your interest"
-      aria-label="Recipient's username"
-      aria-describedby="basic-addon2"
-    />
-    <Button variant="outline-light" id="button-addon2">
-      Search
-    </Button>
-  </InputGroup>
+              <InputGroup className="mt-2">
+                <FormControl
+                    placeholder="Explore your interest"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon2"
+                />
+                <Button variant="outline-light" id="button-addon2">Search</Button>
+              </InputGroup>
               </li>
             <li className="listItem">
             <Link className="link" to="/profile">
