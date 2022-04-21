@@ -1,7 +1,7 @@
 import React from "react";
 import "../Components/Navbar.css";
 import { Link } from "react-router-dom";
-import { Navbar, Container} from "react-bootstrap";
+import { Navbar, Container, FormControl, InputGroup, Button} from "react-bootstrap";
 
 const NavigationBar = ({user}) => {
 
@@ -30,7 +30,20 @@ const NavigationBar = ({user}) => {
       user ? (
 
         <div className="  pullright">
+          
             <ul className="list d-flex">
+              <li className="listItem">
+              <InputGroup>
+    <FormControl
+      placeholder="Explore your interest"
+      aria-label="Recipient's username"
+      aria-describedby="basic-addon2"
+    />
+    <Button variant="outline-light" id="button-addon2">
+      Search
+    </Button>
+  </InputGroup>
+              </li>
             <li className="listItem">
             <Link className="link" to="/profile">
             <img 
@@ -52,7 +65,9 @@ const NavigationBar = ({user}) => {
 
       ) : (
 
-        <Link className="link" to = "/login"> Login </Link>
+        <Link to = "/login"> 
+        <li className="list listItem"> Login </li> 
+        </Link>
       )
     }
     

@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationBar from "../Components/Navbar";
 
 const Feed = () => {
   return (
