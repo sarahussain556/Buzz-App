@@ -1,16 +1,10 @@
 .Suggestionbar {
     display: flex;
-    flex:2;
     background-color: whitesmoke;
     align-items: flex-start;
+    flex-direction: column;
 }
 
-.Suggestionstyle {
-    
-    color: lightseagreen;
-    float: left;
-    
-}
 
 .heading {
     text-align: start;
@@ -18,9 +12,6 @@
     text-shadow: 0.5rem;
 }
 
-.searchlogo {
-    float: left;
-}
 
 .scroll {
     overflow:auto;

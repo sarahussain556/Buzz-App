@@ -1,5 +1,6 @@
 import React from "react";
 import "./Feed.css"
+import Contacts from "../Components/Contacts"
 import Suggestions from "../Components/Suggestions";
 import Leftsidebar from "../Components/Leftsidebar";
 // import Leftsidebar from "../Components/Leftsidebar";
@@ -21,6 +22,7 @@ const Feed = () => {
     <div className="feedlayout">
      <Leftsidebar/>
      <h2>Middle</h2>
+     <Contacts/>
      <Suggestions/>
      </div>
 
