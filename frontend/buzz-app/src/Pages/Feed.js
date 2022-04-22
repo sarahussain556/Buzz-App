@@ -3,8 +3,8 @@ import "./Feed.css"
 import Contacts from "../Components/Contacts"
 import Suggestions from "../Components/Suggestions";
 import Leftsidebar from "../Components/Leftsidebar";
+import Profilecard from "../Components/Profilecard";
 // import Leftsidebar from "../Components/Leftsidebar";
-// import Profilecard from "../Components/Profilecard";
 // import NavigationBar from "../Components/Navbar";
 // import { Dummyposts } from "../Components/Dummyposts";
 
@@ -20,6 +20,7 @@ const Feed = () => {
        <img src="/images/nightsky.jpg" alt="image" />
      </div> */}
     <div className="feedlayout">
+      <Profilecard/>
      <Leftsidebar/>
      <h2>Middle</h2>
      <Contacts/>

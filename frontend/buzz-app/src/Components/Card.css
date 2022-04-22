@@ -1,0 +1,33 @@
+.mystyle {
+    text-align: center;
+}
+.cardstyle {
+    width: 18rem;
+    height: 20rem;
+}
+
+.vertical {
+    border-left: 1.5px solid black;
+    height: 30px;
+    position:absolute;
+    left: 52%;
+}
+
+.coverimg{
+    height: 150px;
+    position: relative;
+}
+
+
+.profileimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 6rem;
+    border: 3px solid white;
+}
