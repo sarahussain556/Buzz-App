@@ -4,6 +4,10 @@
 .cardstyle {
     width: 18rem;
     height: 20rem;
+    margin-top: 20px;
+    /* display: flex;
+    flex: 2; */
+    margin-left: 20px;
 }
 
 .vertical {
@@ -28,6 +32,6 @@
     left: 0;
     right: 0;
     margin: auto;
-    top: 6rem;
+    top: 5.4rem;
     border: 3px solid white;
-}
+}   

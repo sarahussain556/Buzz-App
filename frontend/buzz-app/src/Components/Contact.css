@@ -1,8 +1,10 @@
-.Suggestionbar {
+.contactbar {
     display: flex;
+    flex: 2;
     background-color: whitesmoke;
     align-items: flex-start;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 

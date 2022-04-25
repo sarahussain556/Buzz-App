@@ -1,9 +1,8 @@
 import React from "react";
 import "./Feed.css"
 import Contacts from "../Components/Contacts"
-import Suggestions from "../Components/Suggestions";
-import Leftsidebar from "../Components/Leftsidebar";
 import Profilecard from "../Components/Profilecard";
+import Middle from "../Components/Middle";
 // import Leftsidebar from "../Components/Leftsidebar";
 // import NavigationBar from "../Components/Navbar";
 // import { Dummyposts } from "../Components/Dummyposts";
@@ -13,18 +12,13 @@ const Feed = () => {
   return (
       <>
    
-   {/* <Profilecard/>
-      <h2> This is feed section</h2>
-      <Leftsidebar/>
-     <div>
-       <img src="/images/nightsky.jpg" alt="image" />
-     </div> */}
     <div className="feedlayout">
-      <Profilecard/>
-     <Leftsidebar/>
-     <h2>Middle</h2>
+      <Profilecard/> 
+     {/* <Leftsidebar/> */}
+     {/* <h2>Middle</h2> */}
+     <Middle/>
      <Contacts/>
-     <Suggestions/>
+     {/* <Suggestions/> */}
      </div>
 
       </>

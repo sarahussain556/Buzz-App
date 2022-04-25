@@ -1,8 +1,10 @@
 .Suggestionbar {
     display: flex;
-    flex:2;
+    flex: 2;
     background-color: whitesmoke;
     align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 .Suggestionstyle {
@@ -18,9 +20,9 @@
     text-shadow: 0.5rem;
 }
 
-.searchlogo {
+/* .searchlogo {
     float: left;
-}
+} */
 
 .scroll {
     overflow:auto;
